@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Love Letter</title>
+  <style>
+    body { 
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('bg.jpg') no-repeat center center fixed; 
+      background-size: cover; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      height: 100vh; 
+      margin: 0; 
+      font-family: 'Poppins', sans-serif; 
+      overflow: hidden;
+      color: #fff;
+    }
+    .letter { 
+      background: rgba(255, 255, 255, 0.2); 
+      border-radius: 20px; 
+      padding: 30px; 
+      width: 60%; 
+      text-align: center; 
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5); 
+      backdrop-filter: blur(10px); 
+      animation: slideIn 1.5s ease;
+      color: #fff;
+    }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .letter h1 {
+      font-size: 2.5em;
+      color: #ff6f91;
+    }
+    .letter p {
+      font-size: 1.2em;
+      line-height: 1.6em;
+    }
+    .floating-heart {
+      position: absolute;
+      width: 50px;
+      animation: floatUp 5s infinite ease-in-out;
+    }
+    @keyframes floatUp {
+      0% { transform: translateY(0px); opacity: 1; }
+      50% { opacity: 0.5; }
+      100% { transform: translateY(-100vh); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <img src="p5.jpg" class="floating-heart" style="bottom: 0; left: 10%; animation-delay: 0s;">
+  <img src="p5.jpg" class="floating-heart" style="bottom: 0; left: 30%; animation-delay: 2s;">
+  <img src="p5.jpg" class="floating-heart" style="bottom: 0; left: 50%; animation-delay: 4s;">
+  <img src="p5.jpg" class="floating-heart" style="bottom: 0; left: 70%; animation-delay: 6s;">
+  <img src="p5.jpg" class="floating-heart" style="bottom: 0; left: 90%; animation-delay: 8s;">
+
+  <div class="letter">
+    <h1>My Dearest HannaaaaaTOT,</h1>
+    <p>
+      lab alam ko marami akong nagawang nagpaiyak sayo pero andito kaparin sa tabi ko, and super grateful about that, i loveyou i miss you so much
+    </p>
+    <p>
+      pasensya na kung wala akong mabigay na regalo sayo bukas medyo magstos rin kasi dahil marami project sa school and medyo nabusy at nkaligtaan kuna na valentines pala and alam naman natin na bawal ang valentine samin sa inc, kaya eto nalang naisip ko na gawin, gawan kita nf website hehe, sana ma appriciate mo po ito lablab ko, iloved ypu sooooooo muchh!!
+    </p>
+    <p>
+      love lagi mong tatandaan na mahal na mahal kita at ikaw lang ang babae ko, minsan kung napapa overthink ka lagi mulang isipin na wala akong maipapagpalit sayo dahil nasayo na lahat even tho minsan masakit ka magsalita pero mahal na mahal kita ng sobra at ikaw lang ang hunnybunchsugurplum ko, iloveyou lovee mwaa!! ❤️
+    </p>
+  </div>
+</body>
+</html>
